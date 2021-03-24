@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<style>
+    body {
+      padding: 25px;
+      background-color: rgb(34, 34, 34);
+      color: white;
+      font-size: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+</style>
+<body>
+    <h1>Doug's contact details</h1>
+    <p><strong>My Email: </strong>douglima27@outlook.com</p>
+    <hr>
+    <br>
+<form class="" action="mailto:douglima27@outlook.com" method="POST">
+    <div>
+    <table>
+        <tr>
+            <td>
+                Your Name:
+                <input type="name" size=25 type="text" minlength="5" placeholder="First and Last Name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Your E-mail:
+                <input size=25 type="yourEmail" id="yourEmail" name="yourEmail" placeholder="Enter a valid email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Message:</p>
+                <textarea name="yourMessage" id="yourMessage" cols="50" rows="10" minlength="10" required spellcheck="true" autocapitalize="sentence"></textarea>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <div>
+        <button>Submit</button>
+    </div>
+</form>
+</body>
+</html>
