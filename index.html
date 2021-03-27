@@ -1,90 +1,132 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Doug's First Try</title>
-</head>
-<body>
-  <!-- Website's header *avatar and who am i -->
-  <table cellspacing=15>
-    <tbody>
-      <tr>
-        <td><img src="image/avatar.png" alt="an non defining avatar" height="210"</td>
-        <td><h1><strong>Who am I</strong></h1>
-          <p>Clearly a newborn to this <em><strong>programming</strong></em> stuff</p>
-          <p>I love gaming <em>and probably have done it for too many hours.</em></p>
-          <p>I am currently completely devoted into learning how all of this works and hopefully this will result in something that I can later build a respectable career that I could pride my self on.</p>
-          <p><em>also, english is <strong>NOT</strong> my first language and it is completely self taught so theres definetly gonna be some mistakes.</em></p></td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>What I expect of myself</h3>
-  <p>I expect myself to learn, evolve and generally become a better version of myself. This project-sorta-thing is gonna serve as some sort of diary and maybe, if I really keep at it, turn into an actual portfolio that I can be proud of.</p>
-  <!-- Currently working on unordered list -->
-  <p><strong>Currently working on:</strong></p>
-  <ul>
-    <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">The Complete Web Development Bootcamp</a>, <em>by <a href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/" target="_blank">Angela Yu</a></em></li>
-  </ul>
-  <hr>
-    <!-- Hobbies ordered listing -->
-  <h3>Current Hobbies:</h3>
-  <ol type=i>
-    <li>Programming</li>
-    <li>Playing video-games</li>
-    <li><a href="https://www.netflix.com" target="_blank">Netflix & Chill</a></li>
-    <li><a href="https://www.youtube.com" target="_blank">Other media consumption</a></li>
-  </ol>
-  <hr>
-    <!-- Work experience table -->
-  <h3>Work experience:</h3>
-  <table cellspacing=10>
-    <thead>
-      <th>Date</th>
-      <th>Profession</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>2019 - Current</strong></td>
-        <td>Safety and Security at Grupo 8</td>
-      </tr>
-    </tbody>
-  </table> 
-  <!-- This is the skill-set table  -->
-  <h3>My super-duper skill set</h3>
-<table cellspacing=5>
-  <tbody>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>App Development</td>
-            <td>☆☆☆☆☆</td>
-          </tr>
-          <tr>
-            <td>Web Development</td>
-            <td>★☆☆☆☆     
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Problem Solving</td>
-            <td>★★★★☆
-          </tr>  
-          <tr>
-            <td>Annoy my parents</td>
-            <td>★★★★★
-        </table>
-      </td>
-    </tr>
-  </tbody>
 
-</table>
-<p><strong><a href="contact.html">Contact me!</a></strong></p>
+<head>
+  <meta charset="utf-8">
+  <title>tindog</title>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <!-- POPPER JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/a5f8bb557a.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand me-auto" href="">tindog</a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="top-container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="top-header-h1">MEET NEW AND INTERESTING DOGS NEARBY!</h1>
+            <h4>you can download this app for FREE on the following platforms</h4>
+            <button type="button" class="btn btn-outline-light btn-lg header-download"><span class="fab fa-apple"></span> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg header-download"><span class="fab fa-google-play"></span> Download</button>
+          </div>
+
+          <div class="col-lg-6">
+            <img src="images/iphone6.png" alt="doggo" class="phone-mockup">
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  </div>
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <span class="fas fa-check-circle fa-4x icon-hov"></span>
+          <h3 class="feedback">Easy to use</h3>
+          <p class="feedback-p">So easy to use, even your dog could do it, literally, try it.</p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <span class="fas fa-bullseye fa-4x icon-hov"></span>
+          <h3 class="feedback">Elite Clientele</h3>
+          <p class="feedback-p">We all have the dogs, the most amazing dogs.</p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <span class="fas fa-check-square fa-4x icon-hov"></span>
+          <h3 class="feedback">Guaranteed to work</h3>
+          <p class="feedback-p">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+  </section>
+
+  <section id="testimonies">
+    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on tindog. Woof.</h2>
+    <img src="images/dog-img.jpg" alt="doggo">
+    <em>Pebbles, New Jersey</em>
+  </section>
+
+  <section id="press">
+    <img src="images/techcrunch.png" alt="techcrunch">
+    <img src="images/tnw.png" alt="tnw">
+    <img src="images/mashable.png" alt="mashable">
+    <img src="images/bizinsider.png" alt="bizinsider">
+  </section>
+
+  <section id="pricing">
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for you and your dog</p>
+    <h3>Chihuahua</h3>
+    <h2>Free</h2>
+    <p>5 Matches per Day</p>
+    <p>10 Messages per Day</p>
+    <p>Unlimited App Usage</p>
+    <h3>Labrador</h3>
+    <h2>49.99$ / mo</h2>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <h3>Pitbull</h3>
+    <h2>99.99$ / mo</h2>
+    <p>Priority Matching</p>
+    <p>Priority Listing</p>
+    <p>Unlimited Everything!</p>
+  </section>
+
+  <section id="cta">
+    <h3>Find the True Love of your Dog's life today!</h3>
+    <button type="button" class="playstore">Download</button>
+    <button type="button" class="appstore">Download</button>
+  </section>
+
+  <section id="footer">
+    <p>© Copyright 2021 Tindog</p>
+  </section>
 </body>
+
 </html>
