@@ -68,3 +68,8 @@ body {
 .icon-hov:hover {
   color: #ffc045;
 }
+
+#testimonies {
+  padding: 5% 15%;
+  text-align: center;
+}
