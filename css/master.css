@@ -69,14 +69,22 @@ body {
   color: #ffc045;
 }
 
-#testimonies {
-  padding: 5% 15%;
+#testimonials-carousel {
   text-align: center;
 }
 
+.carousel-item {
+  padding: 5% 30%;
+}
+
+.font-review {
+  margin: auto 2%;
+}
+
 .testimonies-img {
-  width: 15%;
-  border-radius: 50%;
+  width: 13%;
+  border-radius: 100%;
+  margin-top: 2%;
 }
 
 #press {
